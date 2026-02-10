@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Template: Afleverrapport SE-pakket — Op &amp; Afleveren TM ROCO</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="topnav">
+  <a href="index.html" class="site-title">Op &amp; Afleveren</a>
+  <input type="checkbox" id="mobile-toggle">
+  <label for="mobile-toggle" class="hamburger"><span></span></label>
+  <ul class="nav-items">
+    <li><a href="index.html">Home</a></li>
+<li><a href="Start-hier.html">Start hier</a></li>
+<li><a href="Processen.html">Processen</a><ul class="dropdown"><li><a href="Afleveren-7-stappen.html">Afleveren in 7 stappen</a></li><li><a href="Opleveren-voorlopig-definitief.html">Opleveren: voorlopig vs definitief</a></li><li><a href="Doorlooptijden-statussen.html">Doorlooptijden & statussen</a></li><li><a href="Workflow-schema.html">Workflow schema</a></li></ul></li>
+<li><a href="Rollen-RASCI.html">Rollen & RASCI</a><ul class="dropdown"><li><a href="Rollenkaart.html">Rollenkaart</a></li></ul></li>
+<li><a href="Systemen.html">Systemen</a><ul class="dropdown"><li><a href="Systemenlandschap.html">Systemenlandschap</a></li><li><a href="#">Relatics (extern)</a></li><li><a href="#">Aconex (extern)</a></li><li><a href="#">FastDraft (extern)</a></li><li><a href="#">Finalcad (extern)</a></li></ul></li>
+<li><a href="Templates-voorbeelden.html" class="active">Templates</a><ul class="dropdown"><li><a href="Checklist-SE-pakket.html">Checklist SE-pakket</a></li><li><a href="Template-afleverrapport.html" class="active">Template Afleverrapport</a></li><li><a href="Verificatierapport.html">Verificatierapport</a></li></ul></li>
+<li><a href="Dashboards-KPIs.html">Dashboards & KPI's</a></li>
+<li><a href="FAQ-troubleshooting.html">FAQ</a><ul class="dropdown"><li><a href="FAQ-top-vragen.html">Top 10 vragen</a></li></ul></li>
+<li><a href="Meldingen-verbeterpunten.html">Meldingen</a></li>
+<li><a href="Updates-changes.html">Updates</a></li>
+  </ul>
+  <div class="search-placeholder">
+    <svg viewBox="0 0 20 20" fill="currentColor" width="16" height="16"><path d="M8.5 3a5.5 5.5 0 014.38 8.82l4.15 4.15a.75.75 0 01-1.06 1.06l-4.15-4.15A5.5 5.5 0 118.5 3zm0 1.5a4 4 0 100 8 4 4 0 000-8z"/></svg>
+    <span>Zoeken</span>
+  </div>
+</nav>
+
+<nav class="breadcrumb" aria-label="Breadcrumb"><a href="index.html">Home</a> <span class="breadcrumb-sep">&rsaquo;</span> <a href="Templates-voorbeelden.html">Templates</a> <span class="breadcrumb-sep">&rsaquo;</span> <span class="breadcrumb-current">Template: Afleverrapport SE-pakket</span></nav>
+
+<div class="section-white"><div class="page-content"><h1>Template: Afleverrapport SE-pakket</h1></div></div>
+
+<div class="section-white"><div class="page-content"><div class="back-link"><p><a href="Templates-voorbeelden.html">← Terug naar Templates &amp; voorbeelden</a></p></div></div></div>
+
+<div class="section-white"><div class="page-content"><h3>Afleverrapport SE-pakket</h3>
+<div class="callout callout-info"><div class="callout-bar"></div><div class="callout-body"><div class="callout-title">ℹ️ Info</div><div class="callout-text"><p>Het afleverrapport is een PDF uit Relatics met alle vastgestelde informatie van het SE-pakket. Dit document dien je via FastDraft in ter acceptatie bij de Projectmanager.</p></div></div></div>
+
+<p><strong>Wanneer gebruik je dit template?</strong>
+Na voltooiing van alle activiteiten, wanneer de checklist in Relatics volledig groen is. Dit is stap 6 van het <a href="Afleveren-7-stappen.html">afleverproces in 7 stappen</a>.</p>
+<div class="callout callout-contractueel"><div class="callout-bar"></div><div class="callout-body"><div class="callout-title">📋 Contractueel</div><div class="callout-text"><p>Geef het afleverrapport vrij binnen 4 weken na voltooiing van alle activiteiten [S410.P005].</p></div></div></div></div></div>
+
+<div class="section-light"><div class="page-content"><ul class="link-list"><li>Documentnummer<div class="link-desc">OWRB-00000-ROC-TMP-W17-000001</div></li>
+<li>Systeem<div class="link-desc">Relatics-opdrachtnemer (PDF-generatie)</div></li>
+<li>Format<div class="link-desc">PDF (gegenereerd uit Relatics)</div></li>
+<li>Locatie<div class="link-desc">[Documentlocatie invullen]</div></li></ul>
+<div class="callout callout-tip"><div class="callout-bar"></div><div class="callout-body"><div class="callout-title">💡 Tip</div><div class="callout-text"><p>Het rapport wordt niet handmatig opgesteld maar gegenereerd uit Relatics. Zorg dat alle informatie in Relatics correct en compleet is voor je genereert.</p></div></div></div></div></div>
+
+<div class="section-white"><div class="page-content"><h3>Inhoud afleverrapport per fase</h3>
+<p>Het rapport wordt opgebouwd via een JSON-structuur in Relatics. De inhoud verschilt per fase.</p></div></div>
+
+<div class="section-white"><div class="page-content"><h3>Fase DO (Definitief Ontwerp)</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>#</th>
+<th>Onderdeel</th>
+<th>Toelichting</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>WBS-uitwisseling</td>
+<td>Koppeling PR-Code + FastDraft communicaties</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Start-/Referentiedocumenten</td>
+<td>Alle referentiedocumenten die als basis dienen</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Objectdecompositie</td>
+<td>OBS/OTL-AWV mapping van alle objecten</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Documenten / DMO BIM model / tekeningen</td>
+<td>Alle ontwerpdocumenten en BIM-modellen</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Raakvlakken met beheersmaatregelen</td>
+<td>Overzicht raakvlakken en genomen maatregelen</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Beheersmaatregelen (afwijkingen + raakvlakken)</td>
+<td>Overzicht alle beheersmaatregelen</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Afgeleide eisen</td>
+<td>Alle afgeleide eisen uit het ontwerp</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Verificatieplan / -rapport</td>
+<td>Aantoning dat alle eisen geverifieerd zijn</td>
+</tr>
+</tbody>
+</table></div></div></div>
+
+<div class="section-light"><div class="page-content"><h3>Fase UO (Uitvoeringsontwerp)</h3>
+<p>Identiek aan DO:</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>#</th>
+<th>Onderdeel</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>WBS-uitwisseling</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Start-/Referentiedocumenten</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Objectdecompositie</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Documenten / DMO BIM model / tekeningen</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Raakvlakken met beheersmaatregelen</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Beheersmaatregelen (afwijkingen + raakvlakken)</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Afgeleide eisen</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Verificatieplan / -rapport</td>
+</tr>
+</tbody>
+</table></div></div></div>
+
+<div class="section-white"><div class="page-content"><h3>Fase WV (Werkvoorbereiding)</h3>
+<p>Alle onderdelen van DO/UO plus keurings- en testdocumentatie:</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>#</th>
+<th>Onderdeel</th>
+<th>Aanvullend t.o.v. DO/UO</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1-8</td>
+<td>Zelfde als DO/UO</td>
+<td>—</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Keuringsplan</td>
+<td><strong>Nieuw</strong></td>
+</tr>
+<tr>
+<td>10</td>
+<td>Keuringsfiches</td>
+<td><strong>Nieuw</strong></td>
+</tr>
+<tr>
+<td>11</td>
+<td>Testplannen</td>
+<td><strong>Nieuw</strong></td>
+</tr>
+<tr>
+<td>12</td>
+<td>Attesten van materialen (BENOR, COPRO)</td>
+<td><strong>Nieuw</strong></td>
+</tr>
+</tbody>
+</table></div></div></div>
+
+<div class="section-light"><div class="page-content"><h3>Fase UV (Uitvoering)</h3>
+<p>Het meest uitgebreide rapport. Alle onderdelen van WV plus as-built documentatie:</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>#</th>
+<th>Onderdeel</th>
+<th>Aanvullend t.o.v. WV</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1-12</td>
+<td>Zelfde als WV</td>
+<td>—</td>
+</tr>
+<tr>
+<td>13</td>
+<td>As-built DMO BIM model</td>
+<td><strong>Nieuw</strong></td>
+</tr>
+<tr>
+<td>14</td>
+<td>Afwijkingen / gebreken</td>
+<td><strong>Nieuw</strong></td>
+</tr>
+<tr>
+<td>15</td>
+<td>Keuringsrapporten (FAT/SAT)</td>
+<td><strong>Nieuw</strong></td>
+</tr>
+</tbody>
+</table></div>
+<div class="callout callout-letop"><div class="callout-bar"></div><div class="callout-body"><div class="callout-title">⚠️ Let op</div><div class="callout-text"><p>Elk document in het rapport is een definitieve versie. Er wordt niet gewerkt met "groeidocumenten" [S410.P040].</p></div></div></div></div></div>
+
+<div class="section-light"><div class="page-content"><h3>Stappen voor het genereren</h3>
+<ol>
+<li><strong>Controleer de checklist</strong> — De <a href="Checklist-SE-pakket.html">Checklist SE-pakket</a> moet volledig groen zijn.</li>
+<li><strong>Verifieer documenten</strong> — Controleer in Aconex dat alle documenten status "Accepted" hebben.</li>
+<li><strong>Genereer in Relatics</strong> — Gebruik de rapportgeneratiefunctie voor de PDF.</li>
+<li><strong>Controleer de PDF</strong> — Bekijk volledigheid en correctheid van alle onderdelen.</li>
+<li><strong>Wijzig status</strong> — Zet het SE-pakket op "Uitgevoerd".</li>
+<li><strong>Dien in via FastDraft</strong> — Koppel het rapport aan een FastDraft-bericht ter acceptatie bij de Projectmanager.</li>
+</ol>
+<div class="callout callout-contractueel"><div class="callout-bar"></div><div class="callout-body"><div class="callout-title">📋 Contractueel</div><div class="callout-text"><p>Koppel het afleverrapport direct aan het FastDraft-bericht. Het rapport is geen bijlage maar integraal onderdeel van de formele communicatie.</p></div></div></div></div></div>
+
+<div class="section-white"><div class="page-content"><h3>Acceptatieproces na indiening</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Stap</th>
+<th>Doorlooptijd</th>
+<th>Actie</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1. Ontvangstbevestiging</td>
+<td>2 weken</td>
+<td>Projectmanager bevestigt ontvangst</td>
+</tr>
+<tr>
+<td>2. Inhoudelijke beoordeling</td>
+<td>3 weken</td>
+<td>Projectmanager beoordeelt het rapport</td>
+</tr>
+<tr>
+<td>3. Acceptatie of niet-acceptatie</td>
+<td>3 weken</td>
+<td>Definitief besluit</td>
+</tr>
+<tr>
+<td><strong>Totaal</strong></td>
+<td><strong>8 weken</strong></td>
+<td>Van indiening tot acceptatie</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Bij niet-acceptatie:</strong></p>
+<ul>
+<li>Verwerk ALLE genoemde redenen</li>
+<li>Dien een herziene versie in via FastDraft</li>
+<li>Het herziene rapport doorloopt hetzelfde 8-weken-traject</li>
+</ul>
+<div class="callout callout-letop"><div class="callout-bar"></div><div class="callout-body"><div class="callout-title">⚠️ Let op</div><div class="callout-text"><p>Gedeeltelijke verwerking leidt tot een nieuwe afwijzing. Verwerk altijd alle redenen in een keer.</p></div></div></div></div></div>
+
+<div class="section-light"><div class="page-content"><h3>Voorbeeld van een afleverrapport</h3>
+<p>[Screenshot toevoegen: Voorbeeld van een gegenereerd afleverrapport (PDF) uit Relatics]</p>
+<p><em>Voorbeeld van een correct gegenereerd afleverrapport. Let op de volledige opbouw met alle vereiste onderdelen voor de betreffende fase.</em></p></div></div>
+
+<div class="section-white"><div class="page-content"><div class="card-grid"><div class="card"><a href="Afleveren-7-stappen.html"><div class="card-title">Afleveren in 7 stappen</div><div class="card-desc">Terug naar het volledige afleverproces</div></a></div>
+<div class="card"><a href="Checklist-SE-pakket.html"><div class="card-title">Checklist SE-pakket</div><div class="card-desc">De check voordat je het rapport genereert</div></a></div>
+<div class="card"><a href="Verificatierapport.html"><div class="card-title">Verificatierapport</div><div class="card-desc">Onderdeel van het afleverrapport</div></a></div>
+<div class="card"><a href="Doorlooptijden-statussen.html"><div class="card-title">Doorlooptijden &amp; statussen</div><div class="card-desc">Alle contractuele termijnen</div></a></div></div></div></div>
+
+<div class="page-content"><details class="metadata-section"><summary>Pagina-metadata</summary><table class="metadata-table"><tbody><tr><td>Categorie</td><td>Template</td></tr><tr><td>Fase</td><td>Algemeen (DO, UO, WV, UV)</td></tr><tr><td>Systeem</td><td>Relatics, Aconex, FastDraft</td></tr><tr><td>Doelrol</td><td>Af/Oplevercoordinator, MPB</td></tr><tr><td>Status</td><td>Draft</td></tr><tr><td>Owner</td><td>TBD</td></tr><tr><td>Reviewdatum</td><td>Q2 2026</td></tr></tbody></table></details></div>
+
+<footer class="page-footer">
+  Op &amp; Afleveren &mdash; TM ROCO &bull; Oosterweelverbinding Rechteroever &bull;
+  Lokale preview &mdash; gegenereerd door build.py
+</footer>
+
+</body>
+</html>
